@@ -1,0 +1,37 @@
+.love-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #ffb6c1 0%, #ff69b4 100%);
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 8px rgba(255, 105, 180, 0.1);
+}
+.love-logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 8px #ff69b4;
+}
+.love-navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+.love-navbar li {
+  font-size: 1.1rem;
+}
+.love-navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  transition: background 0.2s, color 0.2s;
+}
+.love-navbar li.active a, .love-navbar a:hover {
+  background: #fff;
+  color: #ff69b4;
+}
